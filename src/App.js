@@ -5,6 +5,7 @@ import Filter from "./Components/Filter";
 import Cards from "./Components/Cards";
 import { toast } from "react-toastify";
 import Spinner from "./Components/Spinner";
+import Footer from "./Components/Footer";
 
 const App = () => {
   const [courses, setCourses] = useState([]);
@@ -53,6 +54,7 @@ const App = () => {
           )}
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 };
